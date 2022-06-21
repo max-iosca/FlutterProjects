@@ -1,0 +1,28 @@
+CONTO ALLA ROVESCIA
+
+CODICE
+void main(){
+  int numero = 10;
+  print('con ciclo WHILE');
+  while (numero >= 0) {
+    print (numero.toString());
+    numero--;  
+  }
+    
+  print('\ncon ciclo FOR');
+  for(int i= 0; i < 11; i++){
+    print(i.toString());
+  }
+  
+  print('\ncon ciclo FOR inverso');
+  for(int i=10; i>=0; i--){
+    print(i.toString());    
+  }
+  
+  int numeroDoWhile = 10;
+    print('\ncon DO WHILE inverso');
+  do {
+       print (numeroDoWhile.toString());
+     }
+  while(numero <10);
+}

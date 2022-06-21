@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Bussola/the_compass/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Bussola/the_compass/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Bussola/the_compass/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/PT2 - App1/App/ciao_rut_flet/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/PT2 - App1/App/ciao_rut_flet/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/PT2 - App1/App/ciao_rut_flet/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

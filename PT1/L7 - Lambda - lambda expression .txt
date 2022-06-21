@@ -1,0 +1,15 @@
+
+void main(){
+  List<String> gelati = ['Nocciola', 'Pistacchio', 'Cioccolata', 'Fragola', 'Limone'];
+  gelati.forEach((gelato) =>
+    print(gelato)
+  );
+}
+
+/*Come l'ho fatta sta lambda?
+ *Ho tolto le {}
+ *Ho tolto il ;
+ *C'ho ficcato sto =>
+ *E se ci fosse stato, avrei omesso anche un return
+ *SI UNA SOLO QUANDO C'E' UNA SINGOLA RIGA DI CODICE NELLA FUNZIONE
+ */

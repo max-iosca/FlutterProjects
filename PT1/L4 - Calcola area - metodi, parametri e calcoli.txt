@@ -1,0 +1,33 @@
+Calcola Area - Funzioni, parametri e calcoli
+- posso aggiungere una variabile nel metodo che NON sia obbligatoria quando si chiama il metodo nel mai: circondo con le parentesi [] la variabile oggetto
+
+ esempio
+double calcolaArea(double base, double altezza, [double? isTriangolo]){
+	...
+      ...
+	return area;
+}
+----------------------------------------------------------------------------------
+NULL SAFETY
+Per indicare che un valore può essere NULL, si aggiunge un ? alla fine tipo della variabile -----> double? isTriangolo
+----------------------------------------------------------------------------------
+
+CODICE
+
+void main(){
+   double risultato;
+   risultato = calcolaArea(8.2,5, true);
+  print('Il risultato(con simbolo Dollaro) è: $risultato');
+  //oppure
+  print('Il risultato(con toString()) è: '+ risultato.toString());
+}
+
+double calcolaArea(double base, double altezza, bool isTriangolo){
+  double area;
+  area = base*altezza;
+  if(isTriangolo)
+    area = area/2;
+  // oppure area /= 2
+  return area;
+}
+

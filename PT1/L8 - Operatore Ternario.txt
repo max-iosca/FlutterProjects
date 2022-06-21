@@ -1,0 +1,21 @@
+
+void main(){
+  String preferenza = 'Crema';
+  String gusto;
+  
+  /*
+  if(preferenza == 'Crema') {
+    gusto = 'Nocciola';
+   
+  }
+  else{
+    gusto = 'fragola';
+  }
+  */
+  //MA DATO CHE FA SCHIFORRORE, commento st'if becero
+  //ed usiamo un banale OPERATORE TERNARIO
+
+  gusto = (preferenza == 'crema') ? 'Nocciola' : 'Fragola';
+  print(gusto);
+  
+}

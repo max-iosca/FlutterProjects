@@ -1,0 +1,9 @@
+CODICE ---> Sintassi forEach in Dart
+void main(){
+  
+List<String> gelati = ['Nocciola', 'Pistacchio', 'Cioccolata', ' Fragola', 'Limone'];
+  
+gelati.forEach((gelato){
+    print(gelato);
+  });
+}

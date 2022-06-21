@@ -1,0 +1,17 @@
+Tintoria SINCRONA
+- uno che prende, riconsegna e stira
+
+Tintoria ASINCRONA
+- uno prende e riconsegna
+- uno stira le camicie
+
+Main/UI Thread, in dart e flutter l'equivalente è ISOLATE
+Il compito principale è getire l'interfaccia grafica della app
+
+l'ISOLATE è l'addetto della tintoria
+
+Se all'interno del programma ci sono operazioni lunghe, LONG RUNNING OPERATION è consigliabile usare più di un ISOLATE
+
+- TUTTI i METODI del package http sono ASINCRONI
+quindi non devi aspettarti SUBITO un valore di ritorno...ma LA PROMESSA che ne riceverai uno!
+In Flutter, le promesse di valori di ritorno si chiamano FEATURES, tipi generici.

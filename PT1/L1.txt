@@ -1,0 +1,5 @@
+- ci deve essere SEMPRE un main, punto di partenza
+- String nome = margherita
+  print('ciao $nome');
+con la $ si può omettere il + come concatenamento.
+

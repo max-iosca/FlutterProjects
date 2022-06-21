@@ -1,0 +1,13 @@
+Un app in flutter è composta da widget, tutto quello che si vede è widget.
+Il widget è la descrizione di una parte dell'interfaccia grafica. Quindi tutto quello che l'utente vede e interagisce.
+I widget sono oggetti, istanze di classi. Il linguaggio che usiamo è Dart!
+
+Logica e parte grafica si scrive tutto in Dart.
+
+IL PROGETTO E' INIZIALIZZATO IN MAX-> GIT_FLUTTER
+
+è stata creata con flutter create nome_della_app
+
+dato che ti carica l'app nell'emulatore PRECEDENTEMENTE aperto in androidstudio, per interrompere l'esecuzione della app da terminale, premere TRE pulsanti:
+
+"ctrl" + "+" + "c" e NON ctrl+c tipo 'copia' perchè NON ti chiude nulla

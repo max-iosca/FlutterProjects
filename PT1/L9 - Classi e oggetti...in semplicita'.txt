@@ -1,0 +1,34 @@
+void main(){
+  
+  Papero papero = Papero('Paperino', 50);
+  papero.stampaInfo();
+
+  Papero papero2 = Papero('Paperina', 48);
+  papero2.stampaInfo();
+  
+}
+
+class Papero {
+  String nome;
+  int anni;
+  
+  Papero(this.nome, this.anni);
+  
+  void stampaInfo(){
+    String messaggio ='Il papero $nome ha ${anni.toString()} anni';
+    print(messaggio);
+  }
+}
+
+
+//new è facoltativo in Dart!
+
+/** Dart rompe le pallle sul fatto che la variabile 'messaggio' sia una String
+ * E NON PUOI assegnare una variabile di tipo intero (this.anni) ma vuole che sia
+ * opportuno ad una stringa...vabbè se scrive il .toString() e non rompe le palle  
+*/
+
+//DA NOTARE LA NOTAZIONE/SINTASSI CON CUI SI COMPONE LA STAMPA DEL MESSAGGIO.
+//SI CHIAMA -INTERPOLAZIONE- E C'è L'USO DEL SIMBOLO $variabile
+//oppure ${anni.toString()} tra le parentesi {} in caso richiamassimo dei metodi.
+// R I C O R D A T E L O  T E S T A  A  P I G N A
